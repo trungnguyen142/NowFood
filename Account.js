@@ -147,7 +147,6 @@ const Account = ({ navigation }) => {
             </Text>
             </TouchableOpacity>
           </View>
-
         </View>
       </View>
     </ScrollView>
@@ -166,6 +165,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     height: 40,
     justifyContent: 'center',
+    marginTop:20,
   },
   textEvents: {
     fontWeight: 'bold',
